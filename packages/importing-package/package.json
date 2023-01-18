@@ -1,0 +1,22 @@
+{
+  "name": "importing-package",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Alice Pote <alice.writes.wrongs@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/importing-package.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/importing-package.test.js"
+  },
+  "dependencies": {
+    "transform-tag-name": "*"
+  }
+}
