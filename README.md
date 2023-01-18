@@ -1,5 +1,7 @@
 # Stencil addTransformTagName repro
 
+This is a repro case for https://github.com/ionic-team/stencil/issues/2847
+
 Run
 
 ```sh
@@ -16,4 +18,5 @@ and then
 lerna run build
 ```
 
-then check out `packages/importing-package/main.ts`.
+then check out `packages/importing-package/main.ts`. You should see a type
+error for the usage of `defineCustomElements`.
