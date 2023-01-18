@@ -1,4 +1,3 @@
-import foo from 'transform-tag-name';
+import { defineCustomElements } from 'transform-tag-name';
 
-
-foo()
+defineCustomElements(window, { transformTagName: tagName => `YOUR_APP_ID-${tagName}` });
